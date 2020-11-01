@@ -1,3 +1,2 @@
-
-
-puts 12345678.to_s(:delimited)
+require "active_support/core_ext/numeric/conversions"
+puts 10000.to_s(:delimited)
